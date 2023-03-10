@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"grupo7.apirest"},{"l":"grupo7.apirest.modelo.dao"},{"l":"grupo7.apirest.modelo.entidades"},{"l":"grupo7.apirest.modelo.jpa"},{"l":"grupo7.apirest.modelo.recurso"},{"l":"grupo7.apirest.utils"}];updateSearchResults();

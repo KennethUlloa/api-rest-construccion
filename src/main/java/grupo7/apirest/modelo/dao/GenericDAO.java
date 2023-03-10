@@ -1,4 +1,4 @@
-package modelo.dao;
+package grupo7.apirest.modelo.dao;
 
 import java.util.List;
 

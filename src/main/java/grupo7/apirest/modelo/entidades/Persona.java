@@ -7,6 +7,9 @@ import javax.persistence.Id;
 import java.io.Serializable;
 import java.util.Objects;
 
+/**
+ * Representación de una persona
+ */
 @Entity
 public class Persona implements Serializable {
     @Id

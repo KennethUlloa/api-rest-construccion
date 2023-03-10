@@ -49,7 +49,7 @@ public class RecursoPersona {
     }
 
     /**
-     * Este endpoint realiza la actualización de una persona. Recibe una persona como parámetro, esta persona servirá como
+     * Este endpoint realiza la actualización de una persona. Recibe una persona como parámetro, esta servirá como
      * el recurso para obtener los valores a actualizar en la persona almacenada. Si alguno de los atributos de la
      * persona que entra como parámetro está vacío (null) se ignora este atributo en la actualización y se continúa con
      * aquellos que tienen contenido. <br/>

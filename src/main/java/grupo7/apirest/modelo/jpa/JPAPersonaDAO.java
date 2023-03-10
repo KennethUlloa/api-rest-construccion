@@ -7,7 +7,10 @@ import grupo7.apirest.modelo.entidades.Persona;
 import javax.persistence.TypedQuery;
 import java.util.List;
 
-public class JPAPersonaDAO extends modelo.jpa.JPAGenericDAO<Persona, Integer> implements PersonaDAO {
+/**
+ * Especificación del manejador para la persona usando JPA
+ */
+public class JPAPersonaDAO extends JPAGenericDAO<Persona, Integer> implements PersonaDAO {
 	public JPAPersonaDAO() {
 		super(Persona.class);
 	}
