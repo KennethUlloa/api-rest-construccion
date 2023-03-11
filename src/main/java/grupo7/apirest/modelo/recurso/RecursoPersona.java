@@ -16,7 +16,7 @@ import javax.ws.rs.core.Response;
  * UPDATE -> PUT <br>
  * DELETE -> DELETE <br>
  */
-@Path("/personas")
+@Path("/persona")
 public class RecursoPersona {
 
     /**
@@ -78,7 +78,6 @@ public class RecursoPersona {
     @PUT
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-
     public Response update(Persona p) {
 
         Persona actual = DAOFactory.getFactory().getPersonaDAO().getById(p.getId());
